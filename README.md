@@ -10,9 +10,9 @@ Hvordan kan du faktisk bygge det du tegner i Figma? Hvordan fungerer egentlig st
 
 ## Meny
 
-- [Oppsett](setup.md)
-- [Introduksjon](intro.md)
-- [HTML oversikt](html-overview.md)
-- [CSS oversikt](css-overview.md)
-- [VSCode oversikt](vscode-overview.md)
+- [Oppsett](docs/setup.md)
+- [Introduksjon](docs/intro.md)
+- [HTML oversikt](docs/html-overview.md)
+- [CSS oversikt](docs/css-overview.md)
+- [VSCode oversikt](docs/vscode-overview.md)
 -
