@@ -4,13 +4,19 @@ Denne workshopen legges opp til at man kan utføre oppgavene lokalt på maskinen
 
 > Backup plan hvis du ikke vil gå gjennom oppsettet eller det ikke fungerer. Bruk CodePen
 
+<br>
+<br>
+
 ## Installer VSCode
 
-1. Installer VSCode. https://code.visualstudio.com/download
+1. Installer VSCode fra https://code.visualstudio.com/download.
 2. Åpne VSCode.
 3. Trykk `Cmd + Shift + P` og skriv `code`.
-   Trykk på alternativet som ønsker å legge `code` til `PATH`
+   Trykk på alternativet som ønsker å legge `code` til `PATH`.
 4. Lukk VSCode igjen.
+
+<br>
+<br>
 
 ## Klon prosjektet
 
@@ -20,9 +26,25 @@ Denne workshopen legges opp til at man kan utføre oppgavene lokalt på maskinen
 git clone https://github.com/emilte/html-workshop.git ~/Documents/emilte/html-workshop && cd ~/Documents/html-workshop && code .
 ```
 
+<br>
+<br>
+
 ## Installer extensions
 
 Aksepter popup som spør om å installere anbefalte extensions.
+
+<br>
+<br>
+
+## VSCode innstillinger
+
+Inne i mappen `.vscode`:
+
+1. Dupliser `settings.json.default`.
+2. Gi den nytt navn som `settings.json`.
+
+<br>
+<br>
 
 ## Start koding
 
