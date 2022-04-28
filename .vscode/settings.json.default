@@ -1,0 +1,86 @@
+{
+  /// == DEFAULT == ///
+  /// Other ///
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Atom One Dark",
+
+
+  // Automatically set filetype when opening a new file.
+  // This setting determines new filetype based on the current focused file. 
+  "files.defaultLanguage": "${activeEditorLanguage}",
+
+
+  // Change layout of the upper title.
+  "window.title": "🎨 ${activeEditorShort}${separator}${rootName}",
+
+  // Pairwise unique colored brackets for better visual overview of nested brackets.
+  "editor.bracketPairColorization.enabled": true,
+  
+  "editor.rulers": [
+      120
+  ],
+
+  /// LiveServer ///
+  "liveServer.settings.host": "localhost",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "./public/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "./public/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+
+  /// SVG ///
+  "svg.preview.background": "editor",
+
+  /// EXCLUDE ///
+  "files.exclude": {
+  "**/.git": true,
+  "**/.git/objects/**": true,
+  "**/.git/subtree-cache/**": true,
+  "**/node_modules": true,
+  "**/node_modules/**": true,
+  "**/tmp/**": true,
+  "**/.svn": true,
+  "**/.hg": true,
+  "**/CVS": true,
+  "**/.DS_Store": true,
+  "**/bower_components": true,
+  "**/dist/**": true,
+  "**/log/**": true,
+  "**/logs/**": true,
+  "**/.fdk/**": true,
+  // "**/venv/**": true,
+  // "**/.venv/**": true
+  },
+
+  // Large folders you probably don't need to scan on project-search.
+  "search.exclude": {
+  "**/.git": true,
+  "**/.git/objects/**": true,
+  "**/.git/subtree-cache/**": true,
+  "**/node_modules": true,
+  "**/node_modules/**": true,
+  "**/tmp/**": true,
+  "**/.svn": true,
+  "**/.hg": true,
+  "**/CVS": true,
+  "**/.DS_Store": true,
+  "**/bower_components": true,
+  "**/dist/**": true,
+  "**/log/**": true,
+  "**/logs/**": true,
+  "**/.fdk/**": true,
+  "**/venv/**": true,
+  "**/.venv/**": true
+  },
+}
