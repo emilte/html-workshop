@@ -118,6 +118,8 @@ Alle tags du trenger i denne workshopen.
 
 ## Knapp:
 
+> Denne inkluderer javascript for litt funksjonalitet.
+
 ```html
 <button type="button" onclick="alert('Hei til deg også')">
   Klikk for å hilse
@@ -198,16 +200,16 @@ Alle tags du trenger i denne workshopen.
 
 ```html
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Kaffe</li>
+  <li>Te</li>
+  <li>Melk</li>
 </ul>
 ```
 
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Kaffe</li>
+  <li>Te</li>
+  <li>Melk</li>
 </ul>
 
 <br>
@@ -218,14 +220,14 @@ Alle tags du trenger i denne workshopen.
 
 ```html
 <ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Kaffe</li>
+  <li>Te</li>
+  <li>Melk</li>
 </ol>
 ```
 
 <ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Kaffe</li>
+  <li>Te</li>
+  <li>Melk</li>
 </ol>

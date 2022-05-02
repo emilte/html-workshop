@@ -4,12 +4,14 @@
 
 <br>
 
-| Selector                          | Target                                                        |
-| --------------------------------- | ------------------------------------------------------------- |
-| `<tag> {...}`                     | Treffer html-elementer som f.eks. `<div>` og `span`.          |
-| `.some-class {...}`               | Treffer alle elementer som har dette klassenavnet.            |
-| `#some-id {...}`                  | Skal helst treffe kun det éne elementet som har denne id'en.  |
-| `@media (max-width: 768px) {...}` | Query som bare gjelder for skjermstørrelser mindre enn 768px. |
+| Selector                          | Target                                                            |
+| --------------------------------- | ----------------------------------------------------------------- |
+| `.some-class {...}`               | Treffer alle elementer som har dette klassenavnet.                |
+| `@media (max-width: 768px) {...}` | Query som bare gjelder for skjermstørrelser mindre enn 768px.     |
+| `<tag> {...}`                     | Treffer html-elementer som f.eks. `<div>` og `span`. (\*)         |
+| `#some-id {...}`                  | Skal helst treffe kun det éne elementet som har denne id'en. (\*) |
+
+> (\*) Det er sjeldent man trenger disse. Mest vanlig er klasse, men noen ganger er det nyttig å treffe elementer også.
 
 <br>
 <hr>
