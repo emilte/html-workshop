@@ -4,7 +4,7 @@ HTML står for `HyperText Markup Language` og setter grunnlaget for byggeklosser
 
 Man kan tenke på det som en slags mappestruktur.
 
-For å skrive html, tenker vi at vi begynner øverst på siden. Man kan skrive helt vanlig tekst, og nettleseren vil forstå det. Men, vi kan også putte inn mange ulike “byggeklosser” som har forskjellige egenskaper. Vi gjør dette ved hjelp av tags, som har en begynnelse og en slutt. Hvis vi for eksempel vil ha en sub-tittel, kan vi bruke `<h2>` også kalt Header 2 (den nest største).
+For å skrive html, tenker vi at vi begynner øverst på siden. Man kan skrive helt vanlig tekst, og nettleseren vil forstå det. Men, vi kan også putte inn mange ulike “byggeklosser” som har forskjellige egenskaper. Vi gjør dette ved hjelp av tags, som har en begynnelse og en slutt. Hvis vi for eksempel vil ha en knapp, kan vi bruke `<button>`.
 
 <br>
 <br>
@@ -12,10 +12,10 @@ For å skrive html, tenker vi at vi begynner øverst på siden. Man kan skrive h
 Eksempel:
 
 ```html
-<h2>Overskrift 2</h2>
+<button>Eksempel</button>
 ```
 
-<h2>Overskrift 2</h2>
+<button>Eksempel</button>
 
 <br>
 <br>
@@ -29,7 +29,7 @@ Du trenger faktisk ikke installere noen ting for å prøve ut dette selv. Åpne 
 
 # CSS
 
-CSS står for `Cascading Style Sheets`. Som navnet antyder, er dette en oppskrift for nettleseren som bestemmer hvordan de ulike “byggeklossene” i html-filen skal se ut. Hvis html har bestemt at det skal være en boks med tekst i, kan css bestemme for eksempel at denne boksen skal plasseres midt på skjermen, ha ramme rundt og ha en blå bakgrunn. Det gjøres ved å bruke noe kalt for “selectors” som velger bestemte elementer. Den vanligste "selectoren" treffer klasser, og skrives med punktum før navnet `.some-class {...}`.
+CSS står for `Cascading Style Sheets`. Som navnet antyder, er dette en oppskrift for nettleseren som bestemmer hvordan de ulike “byggeklossene” i html-filen skal se ut. Hvis html har bestemt at det skal være en boks med tekst i, kan css bestemme at denne boksen skal plasseres midt på skjermen, ha ramme rundt og ha en blå bakgrunn. Det gjøres ved å bruke noe kalt for “selectors” som velger bestemte elementer. Den vanligste "selectoren" treffer klasser, og skrives med punktum før navnet `.some-class {...}`.
 
 <br>
 <br>
