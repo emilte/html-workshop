@@ -1,0 +1,60 @@
+{
+    /// == SUGGESTIONS == ///
+
+    // Hide import regions automatically, e.g. (.js).
+    "editor.foldingImportsByDefault": true,
+
+    // Automatically set filetype when opening a new file.
+    // This setting determines new filetype based on the current focused file. 
+    "files.defaultLanguage": "${activeEditorLanguage}",
+
+    // Change layout of the upper title.
+    "window.title": "${activeEditorShort}${separator}${rootName}",
+
+    // Pairwise unique colored brackets for better visual overview of nested brackets.
+    "editor.bracketPairColorization.enabled": true,
+
+    // Hide folders from treeview.
+    // They will appear temporary when inspecting source code.
+    // Useful to prevent autoreveal of large packages on "GoTo definition"
+    "files.exclude": {
+        "**/.git": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/log/**": true,
+        "**/logs/**": true,
+        "**/.fdk/**": true,
+        "**/venv/**": true,
+        "**/.venv/**": true,
+    },
+
+    // Large folders you probably don't need to scan on project-search.
+    "search.exclude": {
+        "**/.git": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bower_components": true,
+        "**/dist/**": true,
+        "**/log/**": true,
+        "**/logs/**": true,
+        "**/.fdk/**": true,
+        "**/venv/**": true,
+        "**/.venv/**": true,
+    },
+}

@@ -1,0 +1,22 @@
+### MAC ###
+.DS_Store
+*~
+
+.history
+public
+
+### Node ###
+node_modules
+
+### VSCode ###
+.vscode/**/*
+!.vscode/settings.json.default
+!.vscode/settings.json.recommended
+!.vscode/settings.json.suggestions
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/extensions.json.recommended
+
+### Environments ###
+venv
+.venv
