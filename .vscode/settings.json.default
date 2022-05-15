@@ -3,7 +3,7 @@
   /// Other ///
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Atom One Dark",
-
+  "workbench.iconTheme": "atom-icons",
 
   // Automatically set filetype when opening a new file.
   // This setting determines new filetype based on the current focused file. 
@@ -26,12 +26,7 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "./public/css"
-    },
-    {
-      "extensionName": ".min.css",
-      "format": "compressed",
-      "savePath": "./public/css"
+      "savePath": null
     }
   ],
   "liveSassCompile.settings.excludeList": [
@@ -82,5 +77,5 @@
   "**/.fdk/**": true,
   "**/venv/**": true,
   "**/.venv/**": true
-  },
+  }
 }
