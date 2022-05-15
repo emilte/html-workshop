@@ -1,6 +1,6 @@
 # Oppsett
 
-Denne workshopen legger opp til at man kan utføre oppgavene lokalt på maskinen. Det er for å kunne jobbe i en editor som hjelper deg å skrive kode.
+Denne workshopen legger opp til at man kan utføre oppgavene lokalt på maskinen. Det er for å kunne jobbe i en editor som hjelper deg å skrive kode. Visual Studio Code (VSCode) er en slik editor. Denne skal du laste ned i neste steg.
 
 > Backup plan hvis du ikke vil gå gjennom oppsettet eller det ikke fungerer. Bruk [CodePen](https://codepen.io/).
 
@@ -12,7 +12,7 @@ Denne workshopen legger opp til at man kan utføre oppgavene lokalt på maskinen
 1. Installer VSCode fra https://code.visualstudio.com/download.
 2. Åpne VSCode.
 3. Trykk `Cmd + Shift + P` og skriv `code`.
-   - Trykk på alternativet: `Install 'code' command in PATH`.
+    - Trykk på alternativet: `Install 'code' command in PATH`.
 4. Lukk VSCode igjen.
 
 <br>
@@ -33,6 +33,6 @@ git clone https://github.com/emilte/html-workshop.git ~/Documents/emilte/html-wo
 
 ## Start koding
 
-1. Åpne [first.html](/first.html)
+1. I VSCode, åpne [first.html](/first.html)
 2. Trykk på `Watch Sass` nederst til høyre i VSCode.
 3. Trykk på `Go Live` nederst til høyre i VSCode.
