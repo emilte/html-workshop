@@ -1,10 +1,12 @@
 {
   "recommendations": [
     "jock.svg",
+    "emroussel.atom-icons",
     "ritwickdey.live-sass",
     "ritwickdey.LiveServer",
+    "editorconfig.editorconfig",
     "yzhang.markdown-all-in-one",
     "akamud.vscode-theme-onedark",
-    "visualstudioexptteam.vscodeintellicode",
+    "visualstudioexptteam.vscodeintellicode"
   ]
 }
