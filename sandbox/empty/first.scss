@@ -1,0 +1,15 @@
+$blueish: #369;
+
+.border {
+  border-color: $blueish;
+  border-style: solid;
+  border-width: 1px;
+}
+
+img {
+  filter: blur(4px);
+
+  &:hover {
+    filter: none;
+  }
+}
