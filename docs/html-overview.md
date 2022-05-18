@@ -4,22 +4,43 @@ Alle tags du trenger i denne workshopen.
 
 <br>
 
-| Tag        | Forklaring                                                                      |
-| ---------- | ------------------------------------------------------------------------------- |
-| `<h1>`     | Tittel. (<a href="#tittel">eksempel</a>)                                        |
-| `<div>`    | En boks som tar hele raden. (<a href="#div">eksempel</a>)                       |
-| `<span>`   | En boks som kun tar den plassen den trenger. (<a href="#span">eksempel</a>) (1) |
-| `<p>`      | En boks med større mellomrom. (<a href="#paragraf">eksempel</a>)                |
-| `<img>`    | Sette inn et bilde. (<a href="#bilde">eksempel</a>)                             |
-| `<a>`      | Link til annen nettside eller overskrift. (<a href="#link">eksempel</a>)        |
-| `<button>` | Enkel knapp. (<a href="#knapp">eksempel</a>)                                    |
-| `<input/>` | Input felt. (<a href="#input">eksempel</a>)                                     |
-| `<table>`  | Tabell. (<a href="#tabell">eksempel</a>)                                        |
-| `<ul>`     | Usortert liste. (<a href="#usortert-liste">eksempel</a>)                        |
-| `<ol>`     | Sortert liste. (<a href="#sortert-liste">eksempel</a>)                          |
+## Generelle tags
+
+| Tag       | Forklaring                                                                      |
+| --------- | ------------------------------------------------------------------------------- |
+| `<h1>`    | Tittel. (<a href="#tittel">eksempel</a>)                                        |
+| `<div>`   | En boks som tar hele raden. (<a href="#div">eksempel</a>)                       |
+| `<span>`  | En boks som kun tar den plassen den trenger. (<a href="#span">eksempel</a>) (1) |
+| `<p>`     | En boks med større mellomrom. (<a href="#paragraf">eksempel</a>)                |
+| `<img>`   | Sette inn et bilde. (<a href="#bilde">eksempel</a>)                             |
+| `<a>`     | Link til annen nettside eller overskrift. (<a href="#link">eksempel</a>)        |
+| `<table>` | Tabell. (<a href="#tabell">eksempel</a>)                                        |
+| `<ul>`    | Usortert liste. (<a href="#usortert-liste">eksempel</a>)                        |
+| `<ol>`    | Sortert liste. (<a href="#sortert-liste">eksempel</a>)                          |
 
 <br>
 
+## Tags i skjema
+
+| Tag           | Forklaring                                                                       |
+| ------------- | -------------------------------------------------------------------------------- |
+| `<label/>`    | Label. (<label> Fornavn </label>)                                                |
+| `<input/>`    | Input felt. (<a href="#input">eksempel</a>)                                      |
+| `<textarea/>` | Et inputfelt som kan ta flere linjer tekst. (<textarea> Litt om meg </textarea>) |
+| `<select/>`   | Et felt der du får en dropdown av valg. (<select> </select> )                    |
+| `<option/>`   | Valg som defineres for dropdownen for Select. (<option> Volvo </option>)         |
+| `<button>`    | Enkel knapp. (<a href="#knapp">eksempel</a>)                                     |
+
+
+Innenfor taggene så kan du også definere ulike "Types". 
+
+### Typer under taggen "input"
+| Type     | Forklaring                                                                             |
+| -------- | -------------------------------------------------------------------------------------- |
+| `submit` | Vil rendres som en knapp spesielt laget for å sende inn data. (<input type="submit" /> |
+| `radio`  | Vil rendres som en radioknapp. (<input type="radio" />)                                |
+
+Merk at skjemaelementene kan spesifisere enda mer i detalj enn hva vi har gjort her, men tanken er å vise hvordan man bygger opp et skjemaelement.
 > (1) OBS: span vil vanligvis ikke bry seg om margins eller padding.
 
 <br>
