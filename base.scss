@@ -1,0 +1,102 @@
+$dark: #333;
+$darker: #222;
+$darkest: #111;
+$off-lighter: #c9c9c9;
+$off-light: #b8b8b8;
+
+$warning-1: #ff8800;
+$warning-2: #ff5500;
+
+$bg-color: $dark;
+$text-color: $off-lighter;
+
+body {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+  font-size: var(--vscode-markdown-font-size, 14px);
+  line-height: var(--vscode-markdown-line-height, 22px);
+  padding: 10px 40px;
+}
+
+a {
+  color: #77f;
+}
+
+pre {
+  background-color: $darker;
+}
+
+hr {
+  border-color: $off-light;
+}
+
+table {
+  border-collapse: collapse;
+  thead {
+    font-weight: bolder;
+  }
+  td,
+  th {
+    border: 1px solid $off-lighter;
+    padding: 10px;
+  }
+}
+
+.note {
+  display: inline-block;
+  padding: 2px 2px 2px 10px;
+  border-left: 4px solid cyan;
+  background-color: #444;
+}
+
+.warning {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 2px 2px 2px 10px;
+  border-left: 4px solid $warning-2;
+  background-color: #644;
+}
+
+.bg-dark {
+  background-color: $darker;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Defined margins (use when you need special spacing between elements)
+Example: '.mt-16' will add margin-top: 16px;
+*/
+
+$max: 48;
+$offset: 1;
+$unit: "px";
+
+@mixin list-loop($className, $styleName) {
+  $i: 0;
+
+  @while $i <= $max {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit};
+    }
+
+    $i: $i + $offset;
+  }
+}
+
+@include list-loop(".m-", "margin");
+@include list-loop(".mt-", "margin-top");
+@include list-loop(".mb-", "margin-bottom");
+@include list-loop(".ml-", "margin-left");
+@include list-loop(".mr-", "margin-right");
+@include list-loop(".mx-", "margin-inline");
+@include list-loop(".my-", "margin-block");
+@include list-loop(".p-", "padding");
+@include list-loop(".pt-", "padding-top");
+@include list-loop(".pb-", "padding-bottom");
+@include list-loop(".pl-", "padding-left");
+@include list-loop(".pr-", "padding-right");
+@include list-loop(".px-", "padding-inline");
+@include list-loop(".py-", "padding-block");

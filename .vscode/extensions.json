@@ -1,12 +1,16 @@
 {
   "recommendations": [
     "jock.svg",
+    "yzane.markdown-pdf",
     "emroussel.atom-icons",
     "ritwickdey.live-sass",
-    "ritwickdey.LiveServer",
+    "ritwickdey.liveserver",
     "editorconfig.editorconfig",
     "yzhang.markdown-all-in-one",
     "akamud.vscode-theme-onedark",
     "visualstudioexptteam.vscodeintellicode"
   ]
 }
+// Important:
+// Do not have trailing comma in this list.
+// It will confuse the json parser in the script "install-extensions.sh".
