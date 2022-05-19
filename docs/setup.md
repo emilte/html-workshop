@@ -26,11 +26,15 @@ Denne workshopen legger opp til at man kan utføre oppgavene lokalt på maskinen
 
 Åpne terminal (`Cmd + Space` og skriv "terminal"), kopier, lim inn og kjør denne kommandoen:
 
+> Obs, denne kan ta lang tid. Ikke lukk terminalen. Det kan også hende at den spør om passord på et tidspunkt for å kunne fortsette.
+
 ```
 git clone https://github.com/emilte/html-workshop.git ~/Documents/emilte/html-workshop && cd ~/Documents/emilte/html-workshop && cp .vscode/settings.json.default .vscode/settings.json && sh install-extensions.sh && code .
 ```
 
 > Denne vil opprette en mappe kalt 'emilte' under Documents. Ikke bytt på noe i kommandoen. Du kan heller bytte navn eller slette mappen senere.
+
+> Hvis du vil slette prosjektet på et senere tidspunkt, eller noe gikk galt under installasjonen og du ønsker å prøve helt på nytt, kjør denne kommandoen: `rm -rf ~/Documents/emilte/html-workshop`
 
 <br>
 <br>
