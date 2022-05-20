@@ -4,7 +4,7 @@
 
 # CSS
 
-Ta først en titt på [css-task](solution/css-task.html).
+Ta først en titt på [css-task](/tasks/3-css/solution/css-task.html).
 
 Filen [`attempt.html`](attempt/attempt.html) er en kopi av filen overfor, men den mangler styling. <br>
 I mappen `attempt` kan du åpne [`attempt.scss`](attempt/attempt.scss) for å fikse dette.
