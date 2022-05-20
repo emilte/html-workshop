@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../css-task-1.scss"
+        "../attempt.scss"
     ],
     "names": [],
-    "file": "css-task-1.css"
+    "file": "attempt.css"
 }
