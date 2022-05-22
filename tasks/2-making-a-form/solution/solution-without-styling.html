@@ -1,66 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lag et skjema</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lag et skjema</title>
-</head>
+    <body>
+        <h1>Kontaktinformasjon</h1>
 
-<body>
-    <h1>Kontaktinformasjon</h1>
+        <form>
+            <label> Fornavn </label>
+            <input />
+            <label> Etternavn </label>
+            <input />
 
-    <form>
+            <br /><br />
 
-        <label> Fornavn </label>
-        <input />
-        <label> Etternavn </label>
-        <input />
+            <label> Gateadresse </label>
+            <input />
 
-        <br><br>
+            <br /><br />
 
-        <label> Gateadresse </label>
-        <input />
+            <label> Postnummer </label>
+            <input type="number" />
+            <label> Poststed </label>
+            <input />
 
-        <br><br>
+            <br /><br />
 
-        <label> Postnummer </label>
-        <input type="number" />
-        <label> Poststed </label>
-        <input />
+            <label> Telefonnummer </label>
+            <input type="number" />
 
-        <br><br>
+            <br /><br />
 
-        <label> Telefonnummer </label>
-        <input type="number" />
+            <label> Bio </label>
+            <textarea> </textarea>
 
-        <br><br>
+            <br /><br />
 
-        <label> Bio </label>
-        <textarea> </textarea>
+            <label> Foretrukket tekstspråk </label>
+            <select>
+                <option>Bokmål</option>
+                <option>Nynorsk</option>
+            </select>
 
-        <br><br>
+            <br /><br />
 
-        <label> Foretrukket tekstspråk </label>
-        <select>
-            <option> Bokmål </option>
-            <option> Nynorsk </option>
-        </select>
+            <label> Foretrukket kommunikasjonskanal </label>
+            <input type="radio" name="fav_channel" />
+            <label> epost</label>
+            <input type="radio" name="fav_channel" />
+            <label> SMS</label>
 
-        <br><br>
+            <br /><br />
 
-        <label> Foretrukket kommunikasjonskanal </label>
-        <input type="radio" name="fav_channel" />
-        <label> epost</label>
-        <input type="radio" name="fav_channel" />
-        <label> SMS</label>
-
-        <br><br>
-
-        <input type="submit" value="Lagre" />
-
-    </form>
-</body>
-
+            <input type="submit" value="Lagre" />
+        </form>
+    </body>
 </html>
