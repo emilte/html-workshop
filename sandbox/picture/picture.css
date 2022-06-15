@@ -1,0 +1,12 @@
+.border {
+  border-color: #369;
+  border-style: solid;
+  border-width: 1px;
+}
+
+img {
+  filter: blur(3px);
+}
+img:hover {
+  filter: none;
+}/*# sourceMappingURL=picture.css.map */
