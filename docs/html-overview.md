@@ -1,6 +1,6 @@
 <link href="../base.css" rel="stylesheet" type="text/css" />
 
-← [Tilbake til meny](README.html) [(markdown)](/README.md)
+← [Tilbake til meny](README.html) [(markdown)](../README.md)
 
 # Oversikt
 

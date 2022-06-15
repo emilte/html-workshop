@@ -1,12 +1,12 @@
 <link href="../../base.css" rel="stylesheet" type="text/css" />
 
-← [Tilbake til meny](README.html) [(markdown)](/README.md)
+← [Tilbake til meny](../../README.html) [(markdown)](../../README.md)
 
 # Oppgave: Tabell
 
 I denne oppgaven skal du få prøve deg på en tabell i html.
 
-> Her kan du lese grunnleggende hvordan en tabell er satt opp ([HTML tables fra W3 School](https://www.w3schools.com/html/html_tables.asp)). Se også [HTML oversikt](docshtml-overview.html) [(markdown)](docs/html-overview.md).
+> Her kan du lese grunnleggende hvordan en tabell er satt opp ([HTML tables fra W3 School](https://www.w3schools.com/html/html_tables.asp)). Se også [HTML oversikt](../../docs/html-overview.html) [(markdown)](../../docs/html-overview.md).
 
 -   For å lage en tabell, starter vi med `<table>`.
 -   En tabell med overskrift kan bruke `<caption>`.
@@ -18,13 +18,13 @@ I denne oppgaven skal du få prøve deg på en tabell i html.
 
 ## Oppgaver:
 
-Ta først en titt på fasiten [`table-task.html`](/tasks/4-table/solution/table-task.html).
+Ta først en titt på fasiten [`table-task.html`](solution/table-task.html).
 
 Deretter:
 
-1. I VSCode, åpne html filen du skal kode i [`table-task-attempt.html`](/tasks/4-table/attempt/table-task-attempt.html).
+1. I VSCode, åpne html filen du skal kode i [`table-task-attempt.html`](attempt/table-task-attempt.html).
 2. Skriv noe i den og sjekk at det dukker opp i linken overfor.
-3. I VSCode, åpne også scss filen du skal kode styling i [`table-task-attempt.scss`](/tasks/4-table/attempt/table-task-attempt.scss).
+3. I VSCode, åpne også scss filen du skal kode styling i [`table-task-attempt.scss`](attempt/table-task-attempt.scss).
 
 Gjør så følgende:
 

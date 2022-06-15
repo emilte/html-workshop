@@ -1,10 +1,10 @@
 <link href="../../base.css" rel="stylesheet" type="text/css" />
 
-← [Tilbake til meny](README.html) [(markdown)](/README.md)
+← [Tilbake til meny](../../README.html) [(markdown)](../../README.md)
 
 # CSS
 
-> Les mer om CSS i [CSS oversikt](docs/css-overview.md) [(markdown)](docs/css-overview.md).
+> Les mer om CSS i [CSS oversikt](../../docs/css-overview.md) [(markdown)](../../docs/css-overview.md).
 
 Ta først en titt på fasiten[css-task.html](/tasks/3-css/solution/css-task.html).
 
