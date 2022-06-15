@@ -36,7 +36,6 @@ Hvordan kan du faktisk bygge det du tegner i Figma? Hvordan fungerer egentlig st
 <br>
 <br>
 <br>
-<br>
 
 ## Sandbox
 
