@@ -6,7 +6,7 @@
 
 I denne oppgaven skal du få prøve deg på en tabell i html.
 
-> Her kan du lese grunnleggende hvordan en tabell er satt opp ([HTML tables fra W3 School](https://www.w3schools.com/html/html_tables.asp)). Se også [HTML oversikt](/docshtml-overview.html) [(markdown)](/docs/html-overview.md).
+> Her kan du lese grunnleggende hvordan en tabell er satt opp ([HTML tables fra W3 School](https://www.w3schools.com/html/html_tables.asp)). Se også [HTML oversikt](docshtml-overview.html) [(markdown)](docs/html-overview.md).
 
 -   For å lage en tabell, starter vi med `<table>`.
 -   En tabell med overskrift kan bruke `<caption>`.

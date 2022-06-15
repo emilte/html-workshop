@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>1-assignment.md</title>
+<title>setup.md</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
@@ -391,35 +391,62 @@ code {
   </script>
 <link href="base.css" rel="stylesheet" type="text/css" />
 <p>← <a href="README.html">Tilbake til meny</a> <a href="/README.md">(markdown)</a></p>
-<h1 id="oppgave-1---skriv-html-kode">Oppgave 1 - Skriv HTML-kode</h1>
+<h1 id="oppsett">Oppsett</h1>
+<!-- NOTE: Users are supposed to view this document in Github, and can therefore not rely on the html generator.  -->
+<p>Denne workshopen legger opp til at man kan utføre oppgavene lokalt på maskinen. Det er for å kunne jobbe i en editor som hjelper deg å skrive kode. Visual Studio Code (VSCode) er en slik editor. Denne skal du laste ned i neste steg.</p>
 <blockquote>
-<p>Les om grunnleggende HTML i <a href="docshtml-overview.html">HTML oversikt</a> <a href="docs/html-overview.md">(markdown)</a>
-Her vil du kunne lese om de mest brukte elementene, de vil være til hjelp i din første oppgave.</p>
+<p>Backup plan hvis du ikke vil gå gjennom oppsettet eller det ikke fungerer. Bruk <a href="https://codepen.io/">CodePen</a>.</p>
 </blockquote>
-<h2 id="oppgaver">Oppgaver:</h2>
-<p>Ta først en titt på to eksempler:</p>
+<br>
+<br>
+<h2 id="windows">Windows</h2>
+<h2 id="1-installer-vscode">1. Installer VSCode</h2>
 <ol>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-1.html">Eksempel 1</a></li>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-2.html">Eksempel 2</a></li>
+<li>Installer VSCode fra https://code.visualstudio.com/download.</li>
+<li>Åpne VSCode.</li>
+<li>Trykk <code>Cmd + Shift + P</code> og skriv <code>code</code>.</li>
+<li>Trykk på alternativet: <code>Install 'code' command in PATH</code>.</li>
+<li>Lukk VSCode igjen.</li>
 </ol>
-<p>Gjør så følgende:</p>
+<br>
+<br>
+<h2 id="2-%C3%A5pne-terminal">2. Åpne terminal</h2>
+<h3 id="mac">Mac:</h3>
+<p>Åpne terminal (<code>Cmd + Space</code> og skriv &quot;terminal&quot;).</p>
+<h3 id="windows">Windows:</h3>
+<p>Sørg for at du har Git Bash tilgjengelig. Hvis ikke kan det lastes ned her <a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>. Sannsynligvis trenger du &quot;Standalone Installer&quot; med &quot;64-bit&quot;. Trykk så windows knappen og søk/åpne Git Bash.</p>
+<br>
+<br>
+<h2 id="3-klon-prosjektet">3. Klon prosjektet</h2>
+<p>Kopier denne kommandoen (klikk logo på høyre side). Lim inn i terminal og trykk enter.</p>
+<blockquote>
+<p>Obs, denne kan ta lang tid. Ikke lukk terminalen. Det kan også hende at den spør om passord på et tidspunkt for å kunne fortsette.</p>
+</blockquote>
+<blockquote>
+<p>Ikke bytt på noe i kommandoen. Du kan heller bytte navn eller slette mappen senere.</p>
+</blockquote>
+<pre class="hljs"><code><div>cd ~ &amp;&amp; rm -rf ~/Documents/emilte/html-workshop ; git clone https://github.com/emilte/html-workshop.git ~/Documents/emilte/html-workshop &amp;&amp; cd ~/Documents/emilte/html-workshop &amp;&amp; cp .vscode/settings.json.default .vscode/settings.json &amp;&amp; sh install-extensions.sh &amp;&amp; code .
+</div></code></pre>
+<blockquote>
+<p>Denne kommandoen vil gjøre følgende:</p>
 <ol>
-<li>Åpne en av filene i mappen <code>attempt</code> i VSCode.
-<ul>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-1.html"><code>attempt-1.html</code></a>.</li>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-2.html"><code>attempt-2.html</code></a>.</li>
-</ul>
-</li>
-<li>Skriv et blogg-innlegg i HTML der du benytter deg av ulike tagger for å etterlikne eksemplene. Det skal inneholde:
-<ul>
-<li>Minst én overskrift.</li>
-<li>En lenke.</li>
-<li>Et bilde.</li>
-<li>Paragraf med tekst.</li>
-</ul>
-</li>
+<li>Gå til hjemme-mappen din for å kunne fjerne prosjektet i neste steg. <br> <code>cd ~</code></li>
+<li>Fjerne dette prosjektet hvis det fantes fra før. <br> <code>rm -rf ~/Documents/emilte/html-workshop</code></li>
+<li>Klone prosjektet og opprette en mappe kalt 'emilte' under 'Documents'. <br> <code>git clone https://github.com/emilte/html-workshop.git ~/Documents/emilte/html-workshop</code></li>
+<li>Gå til prosjektet. <br> <code>cd ~/Documents/emilte/html-workshop</code></li>
+<li>Konfigurere VSCode innstillinger for prosjektet. <br> <code>cp .vscode/settings.json.default .vscode/settings.json</code></li>
+<li>Installere nødvendige VSCode extensions. <br> <code>sh install-extensions.sh</code></li>
+<li>Åpne prosjektet i VSCode. <br> <code>code .</code></li>
 </ol>
-<p>Lykke til!</p>
+</blockquote>
+<br>
+<br>
+<h2 id="4-start-koding">4. Start koding</h2>
+<ol>
+<li>Inne i VSCode, åpne <a href="README.html"><code>README.html</code></a>.</li>
+<li>Trykk på <code>Watch Sass</code> nederst til høyre i VSCode.</li>
+<li>Trykk på <code>Go Live</code> nederst til høyre i VSCode.</li>
+</ol>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
 
 # Oppgave 1 - Skriv HTML-kode
 
-> Les om grunnleggende HTML i [HTML oversikt](/docshtml-overview.html) [(markdown)](/docs/html-overview.md)
+> Les om grunnleggende HTML i [HTML oversikt](docshtml-overview.html) [(markdown)](docs/html-overview.md)
 > Her vil du kunne lese om de mest brukte elementene, de vil være til hjelp i din første oppgave.
 
 ## Oppgaver:

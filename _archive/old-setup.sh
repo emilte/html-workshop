@@ -33,6 +33,6 @@ code .
 
 
 
-# https://code.visualstudio.com/docs/editor/tasks#_custom-tasks
+# https://code.visualstudio.comdocs/editor/tasks#_custom-tasks
 # https://code.visualstudio.com/api/references/vscode-api
 # https://stackoverflow.com/questions/34350417/how-can-i-get-node-sass-watch-and-live-reload-to-work-from-a-single-npm-script

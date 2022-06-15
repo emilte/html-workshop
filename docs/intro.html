@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>1-assignment.md</title>
+<title>intro.md</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
@@ -391,35 +391,37 @@ code {
   </script>
 <link href="base.css" rel="stylesheet" type="text/css" />
 <p>← <a href="README.html">Tilbake til meny</a> <a href="/README.md">(markdown)</a></p>
-<h1 id="oppgave-1---skriv-html-kode">Oppgave 1 - Skriv HTML-kode</h1>
-<blockquote>
-<p>Les om grunnleggende HTML i <a href="docshtml-overview.html">HTML oversikt</a> <a href="docs/html-overview.md">(markdown)</a>
-Her vil du kunne lese om de mest brukte elementene, de vil være til hjelp i din første oppgave.</p>
-</blockquote>
-<h2 id="oppgaver">Oppgaver:</h2>
-<p>Ta først en titt på to eksempler:</p>
-<ol>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-1.html">Eksempel 1</a></li>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-2.html">Eksempel 2</a></li>
-</ol>
-<p>Gjør så følgende:</p>
-<ol>
-<li>Åpne en av filene i mappen <code>attempt</code> i VSCode.
-<ul>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-1.html"><code>attempt-1.html</code></a>.</li>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-2.html"><code>attempt-2.html</code></a>.</li>
-</ul>
-</li>
-<li>Skriv et blogg-innlegg i HTML der du benytter deg av ulike tagger for å etterlikne eksemplene. Det skal inneholde:
-<ul>
-<li>Minst én overskrift.</li>
-<li>En lenke.</li>
-<li>Et bilde.</li>
-<li>Paragraf med tekst.</li>
-</ul>
-</li>
-</ol>
-<p>Lykke til!</p>
+<h1 id="hva-er-html">Hva er HTML</h1>
+<p>HTML står for <code>HyperText Markup Language</code> og setter grunnlaget for byggeklosser man kan bruke til å sette opp nettsider.</p>
+<p>Man kan tenke på det som en slags mappestruktur.</p>
+<p>For å skrive html, tenker vi at vi begynner øverst på siden. Man kan skrive helt vanlig tekst, og nettleseren vil forstå det. Men, vi kan også putte inn mange ulike “byggeklosser” som har forskjellige egenskaper. Vi gjør dette ved hjelp av tags, som har en begynnelse og en slutt. Hvis vi for eksempel vil ha en knapp, kan vi bruke <code>&lt;button&gt;</code>.</p>
+<br>
+<br>
+<p>Eksempel:</p>
+<pre class="hljs"><code><div><span class="hljs-tag">&lt;<span class="hljs-name">button</span>&gt;</span>Eksempel<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+</div></code></pre>
+<p><button>Eksempel</button></p>
+<br>
+<br>
+<br>
+<p>Du trenger faktisk ikke installere noen ting for å prøve ut dette selv. Åpne en ny tom fil og lagre som <code>&lt;navn&gt;.html</code>. Skriv noe i html syntax og åpne filen i nettleseren.</p>
+<br>
+<br>
+<br>
+<h1 id="css">CSS</h1>
+<p>CSS står for <code>Cascading Style Sheets</code>. Som navnet antyder, er dette en oppskrift for nettleseren som bestemmer hvordan de ulike “byggeklossene” i html-filen skal se ut. Hvis html har bestemt at det skal være en boks med tekst i, kan css bestemme at denne boksen skal plasseres midt på skjermen, ha ramme rundt og ha en blå bakgrunn. Det gjøres ved å bruke noe kalt for “selectors” som velger bestemte elementer. Den vanligste &quot;selectoren&quot; treffer klasser, og skrives med punktum før navnet <code>.some-class {...}</code>.</p>
+<br>
+<br>
+<p>Eksempel på css-kode som har valgt boksen og satt på gul bakgrunnsfarge:</p>
+<pre class="hljs"><code><div><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"min-boks"</span>&gt;</span>Min boks<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</div></code></pre>
+<pre class="hljs"><code><div><span class="hljs-selector-class">.min-boks</span> {
+    <span class="hljs-attribute">background-color</span>: yellow;
+}
+</div></code></pre>
+<div class="min-boks" style="background-color:yellow; color:black">Min boks</div>
+<br>
+<br>
 
 </body>
 </html>

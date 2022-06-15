@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>1-assignment.md</title>
+<title>css-overview.md</title>
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 <style>
@@ -391,35 +391,103 @@ code {
   </script>
 <link href="base.css" rel="stylesheet" type="text/css" />
 <p>← <a href="README.html">Tilbake til meny</a> <a href="/README.md">(markdown)</a></p>
-<h1 id="oppgave-1---skriv-html-kode">Oppgave 1 - Skriv HTML-kode</h1>
+<h1 id="css-oversikt">CSS oversikt</h1>
+<h2 id="selectors">Selectors</h2>
+<br>
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.some-class {...}</code></td>
+<td>Treffer alle elementer som har dette klassenavnet.</td>
+</tr>
+<tr>
+<td><code>@media (max-width: 768px) {...}</code></td>
+<td>Query som bare gjelder for skjermstørrelser mindre enn 768px.</td>
+</tr>
+<tr>
+<td><code>&lt;tag&gt; {...}</code></td>
+<td>Treffer html-elementer som f.eks. <code>&lt;div&gt;</code> og <code>span</code>. (*)</td>
+</tr>
+<tr>
+<td><code>#some-id {...}</code></td>
+<td>Skal helst treffe kun det éne elementet som har denne id'en. (*)</td>
+</tr>
+</tbody>
+</table>
 <blockquote>
-<p>Les om grunnleggende HTML i <a href="docshtml-overview.html">HTML oversikt</a> <a href="docs/html-overview.md">(markdown)</a>
-Her vil du kunne lese om de mest brukte elementene, de vil være til hjelp i din første oppgave.</p>
+<p>(*) Det er sjeldent man trenger disse. Mest vanlig er klasse, men noen ganger er det nyttig å treffe elementer også.</p>
 </blockquote>
-<h2 id="oppgaver">Oppgaver:</h2>
-<p>Ta først en titt på to eksempler:</p>
-<ol>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-1.html">Eksempel 1</a></li>
-<li><a href="/tasks/1-getting-started-html/solution/task-1-example-2.html">Eksempel 2</a></li>
-</ol>
-<p>Gjør så følgende:</p>
-<ol>
-<li>Åpne en av filene i mappen <code>attempt</code> i VSCode.
-<ul>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-1.html"><code>attempt-1.html</code></a>.</li>
-<li>Se live i nettleser her <a href="/tasks/1-getting-started-html/attempt/attempt-2.html"><code>attempt-2.html</code></a>.</li>
-</ul>
-</li>
-<li>Skriv et blogg-innlegg i HTML der du benytter deg av ulike tagger for å etterlikne eksemplene. Det skal inneholde:
-<ul>
-<li>Minst én overskrift.</li>
-<li>En lenke.</li>
-<li>Et bilde.</li>
-<li>Paragraf med tekst.</li>
-</ul>
-</li>
-</ol>
-<p>Lykke til!</p>
+<br>
+<hr>
+<br>
+<h2 id="vanlige-css-attributter">Vanlige css attributter.</h2>
+<br>
+<table>
+<thead>
+<tr>
+<th>Attributt</th>
+<th>Betydning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>background-color</code></td>
+<td>Bakgrunnsfarge på et element.</td>
+</tr>
+<tr>
+<td><code>color</code></td>
+<td>Tekstfarge på et element.</td>
+</tr>
+<tr>
+<td><code>font-*</code></td>
+<td>Ulik styling rundt font.</td>
+</tr>
+<tr>
+<td><code>margin-*</code></td>
+<td>Margin utenfor border på et element.</td>
+</tr>
+<tr>
+<td><code>padding-*</code></td>
+<td>Padding innenfor border på et element.</td>
+</tr>
+<tr>
+<td><code>border-*</code></td>
+<td>Border styling på et element.</td>
+</tr>
+<tr>
+<td><code>width</code></td>
+<td>Bredde på et element.</td>
+</tr>
+<tr>
+<td><code>height</code></td>
+<td>Høyde på et element.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<blockquote>
+<p>Styling-navn er ofte relativt intuitivt. VSCode vil hjelpe deg med alternativer når du begynner å skrive.</p>
+</blockquote>
+<br>
+<hr>
+<br>
+<h2 id="tokens">Tokens</h2>
+<p>I stedet for å skrive samme farge/spacing gang på gang, kan man lagre det i en token. Vi refererer vanligvis til dette som en konstant eller variabel. Slik blir det lettere å ha samme verdi overalt, og bytte kun ett sted dersom det er nødvendig.</p>
+<p>Eksempel på opprettelse og bruk:</p>
+<pre class="hljs"><code><div><span class="hljs-comment">// Sett konstant.</span>
+<span class="hljs-variable">$bekk-black</span>: <span class="hljs-number">#0e0e0e</span>;
+
+<span class="hljs-comment">// Bruk på en klasse.</span>
+<span class="hljs-selector-class">.btn</span> {
+    <span class="hljs-attribute">background-color</span>: <span class="hljs-variable">$bekk-black</span>;
+}
+</div></code></pre>
 
 </body>
 </html>
