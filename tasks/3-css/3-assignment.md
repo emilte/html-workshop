@@ -6,7 +6,7 @@
 
 > Les mer om CSS i [CSS oversikt](../../docs/css-overview.md) [(markdown)](../../docs/css-overview.md).
 
-Ta først en titt på fasiten[css-task.html](/tasks/3-css/solution/css-task.html).
+Ta først en titt på fasiten[css-task.html](solution/css-task.html).
 
 Filen [`attempt.html`](attempt/attempt.html) er en kopi av filen overfor, men den mangler styling. <br>
 I mappen `attempt` kan du åpne [`attempt.scss`](attempt/attempt.scss) for å fikse dette.
