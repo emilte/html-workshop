@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "live-server": "^1.2.1",
-    "sass": "^1.49.11"
+    "live-server": "^1.2.2",
+    "sass": "^1.52.3"
   }
 }
