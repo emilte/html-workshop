@@ -7,8 +7,9 @@ $off-light: #b8b8b8;
 $warning-1: #ff8800;
 $warning-2: #ff5500;
 
-$bg-color: $dark;
+$bg-color: #22272e;
 $text-color: $off-lighter;
+$link-color: #77f;
 
 body {
   background-color: $bg-color;
@@ -20,11 +21,7 @@ body {
 }
 
 a {
-  color: #77f;
-}
-
-pre {
-  background-color: $darker;
+  color: $link-color;
 }
 
 hr {
@@ -64,6 +61,16 @@ table {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+// Inline blocks of code.
+*:not(pre) > code {
+  color: $off-light !important;
+  background-color: rgba(99, 110, 123, 0.4);
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  border-radius: 6px;
 }
 
 /* Defined margins (use when you need special spacing between elements)
