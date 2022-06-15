@@ -28,10 +28,10 @@ Hvordan kan du faktisk bygge det du tegner i Figma? Hvordan fungerer egentlig st
 
 ## Oppgaver:
 
-1.  [HTML tags](tasks/1-getting-started-html1-assignment.html) (enkel, html) [(markdown)](tasks/1-getting-started-html/1-assignment.md)
-2.  [Skjema](tasks/2-making-a-form2-assignment.html) (middels, html, css?) [(markdown)](tasks/2-making-a-form/2-assignment.md)
-3.  [CSS](tasks/3-css3-assignment.html) (enkel, css) [(markdown)](tasks/3-css/3-assignment.md)
-4.  [Tabell](tasks/4-table4-assignment.html) (vanskelig, html, css) [(markdown)](tasks/4-table/4-assignment.md)
+1.  [HTML tags](tasks/1-getting-started-html/1-assignment.html) (enkel, html) [(markdown)](tasks/1-getting-started-html/1-assignment.md)
+2.  [Skjema](tasks/2-making-a-form/2-assignment.html) (middels, html, css?) [(markdown)](tasks/2-making-a-form/2-assignment.md)
+3.  [CSS](tasks/3-css/3-assignment.html) (enkel, css) [(markdown)](tasks/3-css/3-assignment.md)
+4.  [Tabell](tasks/4-table/4-assignment.html) (vanskelig, html, css) [(markdown)](tasks/4-table/4-assignment.md)
 
 <br>
 <br>
