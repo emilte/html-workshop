@@ -13,5 +13,5 @@ Lag et skjema med dette innholdet:
 <details >
 <summary class="cursor-pointer">Vis bilde</summary>
     
-![](/img/skjema.png)
+![](../../img/skjema.png)
 </details>

@@ -15,7 +15,7 @@ Dette er et veldig kraftig verktøy med masse funksjonalitet. Der er lett å la 
 
 > # Som regel havner man på fanen `Console`.
 
-![inspect](/img/inspect-element.png)
+![inspect](../img/inspect-element.png)
 
 </details>
 
@@ -24,7 +24,7 @@ Dette er et veldig kraftig verktøy med masse funksjonalitet. Der er lett å la 
 
 Øverst til venstre i panelet kan man se to knapper.
 
-![top-left-buttons](/img/inspect-top-left-buttons.png)
+![top-left-buttons](../img/inspect-top-left-buttons.png)
 
 1. Den til venstre fungerer på samme måte som en color-picker. Klikker du på den kan du deretter klikke på et element i nettsiden. Dette er en snarvei for å finne html og css kode rundt dette området.
 2. Den til høyre transformerer vinduet til nettsiden slik at du enkelt kan bytte mellom ulike enheter og skjermstørrelser.
@@ -33,7 +33,7 @@ Dette er et veldig kraftig verktøy med masse funksjonalitet. Der er lett å la 
 
 <summary>(1) Slik ser det ut hvis du trykker på venstre knapp</summary>
 
-![inspect](/img/inspect-element-picker.png)
+![inspect](../img/inspect-element-picker.png)
 
 </details>
 
@@ -43,7 +43,7 @@ Dette er et veldig kraftig verktøy med masse funksjonalitet. Der er lett å la 
 
 > # Øverst kan du se at jeg har valgt Iphone XR i portrett-modus.
 
-![inspect](/img/inspect-devices.png)
+![inspect](../img/inspect-devices.png)
 
 </details>
 
@@ -62,13 +62,13 @@ I eksempelet under kan du se at jeg har funnet meg en rad i tabellen. Når den e
 
 <summary>Eksempel fra Feide</summary>
 
-![inspect](/img/inspect-element-table-row.png)
+![inspect](../img/inspect-element-table-row.png)
 
 </details>
 
 Øverst til høyre i fanen `Styles` ser du en knapp kalt `:hov`.
 
-![inspect](/img/inspect-hov.png)
+![inspect](../img/inspect-hov.png)
 
 Alle elementer kan ha ulike tilstander. En knapp kan for eksempel være i fokus, trykket ned eller ha en hoverende musepeker over seg. Vi kan skru disse tilstandene av og på i dette panelet for å se hvordan knappen oppfører seg.
 
@@ -76,7 +76,7 @@ Alle elementer kan ha ulike tilstander. En knapp kan for eksempel være i fokus,
 
 <summary>`:hov` panel</summary>
 
-![inspect](/img/inspect-hov-panel.png)
+![inspect](../img/inspect-hov-panel.png)
 
 </details>
 
@@ -84,6 +84,6 @@ Alle elementer kan ha ulike tilstander. En knapp kan for eksempel være i fokus,
 
 <summary>Eksempel der en rad er i fokus</summary>
 
-![inspect](/img/inspect-table-focus.png)
+![inspect](../img/inspect-table-focus.png)
 
 </details>
