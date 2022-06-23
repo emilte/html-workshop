@@ -1,6 +1,7 @@
 {
   /// == DEFAULT == ///
   /// Other ///
+  "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "atom-icons",
